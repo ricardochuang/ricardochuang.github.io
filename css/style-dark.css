@@ -922,6 +922,15 @@ header .header-mobile .header-toggle i {
     text-transform: uppercase;
 }
 
+.education-section .education .content .school p.h5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
 .education-section .education .content .school p.info {
     font-size: 16px;
     font-style:italic;
@@ -940,6 +949,10 @@ header .header-mobile .header-toggle i {
     line-height: 26px;
     margin: 0;
     text-transform: uppercase;
+}
+
+.education-section .education .content .project .info a:hover  {
+    opacity: .7;
 }
 
 
