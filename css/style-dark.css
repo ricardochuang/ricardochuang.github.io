@@ -937,6 +937,26 @@ header .header-mobile .header-toggle i {
     margin-bottom: 0px;
 }
 
+.education-section .education .content .project p.info span{
+    display:block;
+    text-align:center;
+}
+
+.education-section .education .content .project p.info .one-picture img{
+    width: 30%;
+    height: auto;
+}
+
+.education-section .education .content .project p.info .one-picture-small img{
+    width: 80%;
+    height: auto;
+}
+
+.education-section .education .content .project p.info .more-pictures img{
+    width: 200px;
+    height: 200px;
+}
+
 .education-section .education .content .school p.intro {
     font-size: 16px;
     margin-bottom: 0px;
@@ -948,13 +968,15 @@ header .header-mobile .header-toggle i {
     letter-spacing: .5px;
     line-height: 26px;
     margin: 0;
-    text-transform: uppercase;
 }
 
 .education-section .education .content .project .info a:hover  {
     opacity: .7;
 }
 
+.education-section .education .content p.info a:hover  {
+    opacity: .7;
+}
 
 .education-section .education span.year {
     height: 100%;

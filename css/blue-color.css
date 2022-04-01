@@ -55,6 +55,10 @@ ul.education .content h2 {
     color: #00A3E1;
 }
 
+.education-section .education .content p.info a  {
+    color: #00A3E1;
+}
+
 .progress .progress-bar {
     background-color: #00A3E1;
 }
