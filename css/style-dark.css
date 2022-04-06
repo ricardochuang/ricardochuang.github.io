@@ -891,11 +891,12 @@ header .header-mobile .header-toggle i {
 }
 
 .education-section .education .content .school h3 {
-    font-size: 28px;
+    font-size: 36px;
     font-weight: 700;
     letter-spacing: .5px;
     line-height: 26px;
-    margin: 0;
+    margin: 1px;
+    padding: 5px;
     text-transform: uppercase;
 }
 
@@ -931,15 +932,30 @@ header .header-mobile .header-toggle i {
     text-transform: uppercase;
 }
 
+
 .education-section .education .content .school p.info {
     font-size: 16px;
-    font-style:italic;
     margin-bottom: 0px;
 }
 
 .education-section .education .content .project p.info span{
     display:block;
     text-align:center;
+}
+
+.education-section .education .content .school p.info span{
+    display:block;
+    text-align:center;
+}
+
+.education-section .education .content .school p.info .one-picture img{
+    width: 60%;
+    height: auto;
+}
+
+.education-section .education .content .school p.info .one-picture-small img{
+    width: 80%;
+    height: auto;
 }
 
 .education-section .education .content .project p.info .one-picture img{
@@ -957,17 +973,23 @@ header .header-mobile .header-toggle i {
     height: 200px;
 }
 
-.education-section .education .content .school p.intro {
-    font-size: 16px;
-    margin-bottom: 0px;
+.education-section .education .content .project p.info .more-pictures-big img{
+    width: 300px;
+    height: 360px;
+}
+
+.education-section .education .content .project p.info .more-pictures-long img{
+    width: 300px;
+    height: 240px;
 }
 
 .education-section .education .content .project h4 {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 700;
     letter-spacing: .5px;
     line-height: 26px;
-    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .education-section .education .content .project .info a:hover  {
@@ -1061,18 +1083,29 @@ header .header-mobile .header-toggle i {
 }
 
 .working-section .experience .content h4 {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 700;
     letter-spacing: .5px;
     line-height: 26px;
     margin: 0;
+    padding: 5px;
     text-transform: uppercase;
+}
+
+.working-section .experience .content p.info span{
+    display:block;
+    text-align:center;
+}
+
+.working-section .experience .content p.info .one-picture img{
+    width: 60%;
+    height: auto;
 }
 
 .working-section .experience .content h5 {
     margin-top: 5px;
     margin-bottom: 5px;
-    font-size: 12px;
+    font-size: 20px;
     font-family: "Roboto", sans-serif;
     font-weight: 600;
     text-transform: uppercase;
